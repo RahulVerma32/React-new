@@ -12,10 +12,12 @@ function App() {
     // setCounter(counter+1)         
     // console.log(counter)         in console value increases but not in webpage
 
-
+      // javascript sends codes in batches so same code do 1 work therefore callback is used to note previous value and incremeant it
     // setCounter((Counter)=>Counter+1)
     // setCounter((prevCounter)=>prevCounter+1)
     // setCounter((C)=>C+1)
+    // setCounter(C=>C+1)
+    
     if(counter==10) return 
     setCounter(counter+1)
     }
